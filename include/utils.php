@@ -164,7 +164,7 @@ function make_sugar_config(&$sugar_config)
     'portal_view' => 'single_user',
 	'resource_management' => array (
 	    'special_query_limit' => 50000,
-	    'special_query_modules' => array('Reports', 'Export', 'Import', 'Administration', 'Sync','Home'),
+	    'special_query_modules' => array('Reports', 'Export', 'Import', 'Administration', 'Sync'),
 	    'default_limit' => 1000,
     ),
 	'require_accounts' => empty($requireAccounts) ? true : $requireAccounts,
